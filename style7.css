@@ -1,0 +1,128 @@
+/* Styles the whole page background and text */
+body {
+    /* Removes default spacing around the page */
+    margin: 0;
+
+    /* Adds space inside the page */
+    padding: 0;
+
+    /* Sets the font style for the page */
+    font-family: Arial, sans-serif;
+
+    /* Creates a dark space-like background */
+    background: linear-gradient(to bottom, #020024, #090979, #000000);
+
+    /* Makes the text white */
+    color: white;
+
+    /* Centers text on the page */
+    text-align: center;
+}
+
+/* Styles the main content box */
+.container {
+    /* Limits the width so the page looks clean */
+    width: 80%;
+
+    /* Centers the container */
+    margin: 30px auto;
+
+    /* Adds space inside the container */
+    padding: 20px;
+
+    /* Gives the container a slight transparent background */
+    background-color: rgba(255, 255, 255, 0.08);
+
+    /* Rounds the corners */
+    border-radius: 15px;
+
+    /* Adds a soft glow effect */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Styles the main heading */
+h1 {
+    /* Makes the heading larger */
+    font-size: 40px;
+
+    /* Changes the heading color */
+    color: #00e5ff;
+}
+
+/* Styles the paragraph text */
+p {
+    /* Changes the paragraph font size */
+    font-size: 18px;
+
+    /* Adds spacing between lines */
+    line-height: 1.6;
+}
+
+/* Styles the image section */
+.image-section img {
+    /* Makes the image responsive */
+    width: 70%;
+
+    /* Limits the image width */
+    max-width: 500px;
+
+    /* Rounds the image corners */
+    border-radius: 15px;
+
+    /* Adds spacing above and below the image */
+    margin: 20px 0;
+
+    /* Adds a glow around the image */
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.5);
+}
+
+/* Styles the audio player */
+audio {
+    /* Adds spacing around the player */
+    margin-top: 15px;
+}
+
+/* Styles the button */
+button {
+    /* Adds space inside the button */
+    padding: 12px 20px;
+
+    /* Removes the default border */
+    border: none;
+
+    /* Rounds the corners */
+    border-radius: 10px;
+
+    /* Changes the background color */
+    background-color: #00e5ff;
+
+    /* Changes the text color */
+    color: black;
+
+    /* Makes the text a little bolder */
+    font-weight: bold;
+
+    /* Changes the mouse when hovering */
+    cursor: pointer;
+
+    /* Adds spacing above the button */
+    margin-top: 20px;
+}
+
+/* Adds a hover effect to the button */
+button:hover {
+    /* Changes the button color on hover */
+    background-color: #7df9ff;
+}
+
+/* Styles the fact display area */
+#factDisplay {
+    /* Adds spacing above the fact text */
+    margin-top: 20px;
+
+    /* Makes the text stand out */
+    font-size: 20px;
+
+    /* Changes the color */
+    color: #ffd700;
+}
