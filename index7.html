@@ -1,0 +1,65 @@
+<!--
+Name: Vafee
+Assignment: Add Sound to a Webpage
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Sets the character set for the page -->
+    <meta charset="UTF-8">
+
+    <!-- Makes the page responsive on phones and tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title shown on the browser tab -->
+    <title>Space Sound Experience</title>
+
+    <!-- Connects the external CSS file -->
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+    <!-- Main container for all page content -->
+    <div class="container">
+
+        <!-- Main heading for the page -->
+        <h1>Welcome to the Space Sound Experience</h1>
+
+        <!-- Short description for the user -->
+        <p id="description">
+            This page plays background sound from the U.S. space station lab and gives the user a relaxing space-themed experience.
+        </p>
+
+        <!-- Decorative image section -->
+        <div class="image-section">
+            <!-- Space image for creativity and design -->
+            <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1000&q=80" alt="View of Earth from space">
+        </div>
+
+        <!-- Audio section title -->
+        <h2>Background Space Audio</h2>
+
+        <!-- Audio player that gives the user control over the sound -->
+        <audio controls loop>
+            <!-- MP3 sound file used for the assignment -->
+            <source src="us-lab-background.mp3" type="audio/mpeg">
+
+            <!-- Message shown if the browser does not support audio -->
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Button section for a small JavaScript feature -->
+        <div class="button-section">
+            <!-- Button that changes the message on the page -->
+            <button id="factButton">Show Space Fact</button>
+        </div>
+
+        <!-- Area where the JavaScript message will appear -->
+        <p id="factDisplay">Click the button to see a space fact.</p>
+
+    </div>
+
+    <!-- Connects the external JavaScript file -->
+    <script src="main7.js"></script>
+</body>
+</html>
